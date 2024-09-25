@@ -28,7 +28,7 @@ components:
           title: Chart Version
           type: string
           description: The version of the ingress-nginx Helm chart.
-          default: 1.15.0
+          default: 23.0.4
           x-walrus-ui:
             group: Basic
             order: 3
@@ -69,7 +69,7 @@ components:
           title: Issuer Kind
           type: string
           description: origin issuer kind
-          default: OriginIssuer
+          default: ClusterOriginIssuer
           x-walrus-ui:
             group: Basic
             order: 8
